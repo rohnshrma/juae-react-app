@@ -1,0 +1,26 @@
+.About {
+  margin: 1rem;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  max-width: 250px;
+  box-shadow: 0 0 4px #000;
+}
+.About img {
+  width: 100%;
+}
+
+/* features */
+.Features {
+  padding: 4rem 8rem;
+  background-color: #f9f9f9;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Feature .icon {
+  font-size: 3rem;
+  color: rgb(194, 71, 71);
+}
