@@ -1,6 +1,8 @@
 import About from "./About";
 import "./App.css";
-import Feature from "./Feature";
+import Book from "./Book";
+import books from "./data.js";
+
 function App() {
   return (
     <div className="App">
@@ -16,10 +18,16 @@ function App() {
         img="https://cdn.britannica.com/98/152298-050-8E45510A/Cheetah.jpg"
       />
 
-      <div className="Features">
-        <Feature />
-        <Feature />
-        <Feature />
+      <div className="Books">
+        {books.map(function (book, index) {
+          return (
+            <Book
+              title={book.title}
+              author={book.author}
+              address={book.image}
+            />
+          );
+        })}
       </div>
     </div>
   );
