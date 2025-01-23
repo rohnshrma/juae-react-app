@@ -61,3 +61,10 @@ body {
   background-color: olive;
   color: #fff;
 }
+
+.create-area h2 {
+  color: #fff;
+  font-size: 4rem;
+  text-shadow: -2px -2px 0 red;
+  font-family: Arial, Helvetica, sans-serif;
+}

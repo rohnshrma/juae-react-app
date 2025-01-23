@@ -5,13 +5,15 @@ import Book from "./Book";
 import books from "./data.js";
 import Counter from "./Counter.js";
 import Timer from "./Timer.js";
+import Form from "./Form.js";
 function App() {
   console.log("App Running");
 
   return (
     <div className="App">
       {/* <Counter /> */}
-      <Timer />
+      {/* <Timer /> */}
+      <Form />
     </div>
   );
 }
